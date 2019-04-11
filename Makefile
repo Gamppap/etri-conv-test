@@ -5,6 +5,6 @@ PROG = ${SRCS:.cpp=.bin}
 
 OPENCV = `pkg-config opencv4 --cflags --libs`
 LIBS = $(OPENCV)
-
+gggggggg
 $(PROG):$(SRCS)
 	@$(CC) $(CFLAGS) -o $(PROG) $(SRCS) $(LIBS)
